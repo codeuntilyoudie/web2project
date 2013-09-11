@@ -25,7 +25,7 @@ abstract class w2p_Theme_Base
         return $filepath;
     }
 
-    public function buildHeaderNavigation($rootTag = '', $innerTag = '', $dividingToken = '') {
+    public function buildHeaderNavigation($rootTag = '', $innerTag = '', $dividingToken = '', $styleClass = '') {
         $s = '';
         $nav = $this->_AppUI->getMenuModules();
 
